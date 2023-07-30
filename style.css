@@ -1,0 +1,22 @@
+body
+{
+  color: white;
+  background: #92aff0;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #output
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#gesture
+{
+  font-size:48px;
+}
+label{
+  font-size: 20px;
+}
