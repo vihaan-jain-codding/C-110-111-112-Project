@@ -17,11 +17,11 @@
             <h3 class="btn btn-danger">
                 Hand Gestures
                 <br>
-                <span>&#128076;</span>
-                <span>&#128077;</span>
-                <span>&#128078;</span>
-                <span>&#129304;</span>
-                <span>&#9996;</span>
+                <span>&#128076;</span> <!--amazing-->
+                <span>&#128077;</span> <!--like-->
+                <span>&#128078;</span> <!--dislike-->
+                <span>&#129304;</span> <!--rock-->
+                <span>&#9996;</span>   <!--victory-->
               </h3>
 
               <br><br>
@@ -30,7 +30,7 @@
                 <label>Webcam View:</label>
                 <div id="camera"></div>
                 <br><br>
-                <button class="btn btn-success">Capture Image</button>
+                <button class="btn btn-success" onclick="take_snapshot()">Capture Image</button>
                </div>
 
                <div class="col-md-4 col-sm-12 col-xs-12">
@@ -43,7 +43,7 @@
                     <label>Captured Image - </label>
                   <div id="output"></div>
                   <br><br>
-                  <button class="btn btn-success">Predict Hand Gesture</button>
+                  <button class="btn btn-success" onclick="check()">Predict Hand Gesture</button>
                 </div> 
 
         </center>
